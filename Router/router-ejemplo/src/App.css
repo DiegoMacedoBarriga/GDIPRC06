@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+.home, .games-page, .game-detail, .not-found {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.game-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-list li {
+  margin: 10px 0;
+}
+
+.game-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.game-link:hover {
+  text-decoration: underline;
+}
+
+.game-detail h2 {
+  text-align: center;
+}
+
+.not-found h1 {
+  color: #dc3545;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.game-detail {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
